@@ -22,7 +22,7 @@ export default function App() {
   }, [dispatch]);
 
   return (
-    <div className="App">
+    <div className="app">
       <div className={styles.phonebook}>
         <h1 className={styles.phonebook_title}>Phonebook</h1>
         <ContactForm onSubmit={addContact} />
